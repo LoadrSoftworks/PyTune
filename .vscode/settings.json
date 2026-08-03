@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/pytune-env": true
+    },
+    
+    "python.defaultInterpreterPath": "${workspaceFolder}/pytune-env/Scripts/python.exe",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src"
+    ],
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/src"
+    ]
+
+}
